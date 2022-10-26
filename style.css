@@ -764,10 +764,10 @@ section {
     grid-template-columns: 1fr;
     padding-top: 2.5rem;
   }
-  .about-container .left-about {
+  .about-container .le ft-about {
     padding-right: 0;
   }
-  .about-container .left-about p {
+  .about-container .le ft-about p {
     padding-left: 0;
   }
   .timeline {
