@@ -160,8 +160,11 @@ section {
 /*independent components*/
 /*Header-content*/
 .header-content {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  /* display: grid; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* grid-template-columns: repeat(2, 1fr); */
   min-height: 100vh;
 }
 .header-content .left-header {
@@ -183,8 +186,7 @@ section {
 }
 .header-content .left-header .image {
   border-radius: var(--br-sm-2);
-  height: 90%;
-  width: 68%;
+  width: 50px;
   margin-left: 4rem;
   transition: all 0.4s ease-in-out;
 }
@@ -195,16 +197,20 @@ section {
      object-fit: cover;
   transition: all 0.4s ease-in-out;
   filter: grayscale(0);
+  border-radius: 20px;
 }
 .header-content .left-header .image img:hover {
   filter: grayscale(100%);
 }
 .header-content .right-header {
+  margin: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-right: 18rem;
+  gap: 20px;
 }
+
 .header-content .right-header .name {
   font-size: 3rem;
 }
