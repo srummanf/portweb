@@ -472,7 +472,22 @@ section {
   transition: all 0.4s ease-in-out;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .html {
-  width: 80%;
+  width: 48%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .css {
+  width: 40%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .js {
+  width: 40%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .django {
+  width: 45%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .mern {
+  width: 45%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .figma {
+  width: 55%;
 }
 
 .portfolio-text {

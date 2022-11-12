@@ -38,6 +38,9 @@
 }
 
 
+
+
+
 body {
     background-color: var(--color-primary);
     font-family: 'Poppins', sans-serif;
@@ -541,8 +544,29 @@ section {
                     }
 
                     .html {
-                        width: 80%
+                        width: 48%
                     }
+
+                    .css{
+                        width: 40%
+                    }
+
+                    .js{
+                        width: 40%
+                    }
+
+                    .django{
+                        width: 45%
+                    }
+
+                    .mern{
+                        width: 45%
+                    }
+
+                    .figma{
+                        width: 55%
+                    }
+
                 }
 
             }
